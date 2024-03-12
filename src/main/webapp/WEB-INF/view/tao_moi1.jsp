@@ -17,9 +17,8 @@
         </head>
 
         <body>
-            <p1 style="color: blueviolet; font-size: 60px;">Hello From JSP</p1>
+            <p1 style="color: blue; font-size: 30px;">Successfully Created</p1>
 
-            <!-- <button class="btn btn-success">Submit</button> -->
         </body>
 
         </html>
