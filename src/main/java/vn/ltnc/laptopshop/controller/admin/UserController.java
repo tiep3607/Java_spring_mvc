@@ -90,6 +90,7 @@ public class UserController {
             @ModelAttribute("newUser") @Valid User ltnc,
             BindingResult newUserBindingResult,
             @RequestParam("ltncFile") MultipartFile file) {
+        // @RequestParam("hoidanitFile") MultipartFile file) {
 
         // List<FieldError> errors = newUserBindingResult.getFieldErrors();
         // for (FieldError error : errors) {
