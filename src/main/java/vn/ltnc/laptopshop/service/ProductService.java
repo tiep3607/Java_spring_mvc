@@ -83,12 +83,11 @@ public class ProductService {
 
     // case 6
     public Specification<Product> buildPriceSpecification(List<String> price) {
-        Specification<Product> combinedSpec = Specification.where(null); // disconjunction
+        Specification<Product> combinedSpec = Specification.where(null);
         for (String p : price) {
             double min = 0;
             double max = 0;
 
-            // Set the appropriate min and max based on the price range string
             switch (p) {
                 case "duoi-10-trieu":
                     min = 0;
